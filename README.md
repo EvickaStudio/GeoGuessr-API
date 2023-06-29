@@ -1,6 +1,6 @@
 # GeoGuessr API
 
-This project is a Python script that interacts with the GeoGuessr API (not fully developed, only Endpoints). It uses the `requests` library to make HTTP requests to the API and retrieve data.
+This Python script contains a list of endpoints for the GeoGuessr API. It uses the `requests` library to make HTTP requests to the API and retrieve data.
 
 ## Getting Started
 
@@ -14,14 +14,14 @@ You'll also need to install the `requests` library. You can do this by running t
 
 To access the most endpoint, you'll need to provide a `_ncfa` cookie. You can extract this cookie from your browser by following these steps:
 
-1. Open the GeoGuessr website in your browser and log in.
-2. Open the developer tools (usually by pressing F12).
-3. Go to the "Network" tab.
-4. Refresh the page.
-5. Look for a request to `most` in the list of requests.
+1. Open the GeoGuessr website in your browser and log in to your account.
+2. Open the developer tools in your browser.
+3. Navigate to the "Network" tab in the developer tools.
+4. Refresh the page to capture the network traffic.
+5. Look for a request like to the `profiles` endpoint in the network traffic.
 6. Click on the request to open it.
-7. In the "Headers" tab, look for the "Cookie" header.
-8. Copy the value of the `_ncfa` cookie.
+7. In the request headers, look for the `_ncfa` cookie and copy its value.
+8. Paste the `_ncfa` token into the script where indicated.
 
 ## Usage
 
@@ -29,7 +29,7 @@ To use the script, simply run it from the command line:
 
 `python main.py`
 
-The script will make a request to the GeoGuessr API and print the response to the console.
+This script sends a GET request to the GeoGuessr API using the endpoint you set and prints the response to the console.
 
 ## API Endpoints
 
