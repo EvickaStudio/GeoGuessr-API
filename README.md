@@ -1,6 +1,6 @@
 # GeoGuessr API
 
-This project is a Python script that interacts with the GeoGuessr API. It uses the `requests` library to make HTTP requests to the API and retrieve data.
+This project is a Python script that interacts with the GeoGuessr API (not fully developed, only Endpoints). It uses the `requests` library to make HTTP requests to the API and retrieve data.
 
 ## Getting Started
 
