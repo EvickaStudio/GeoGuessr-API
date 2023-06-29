@@ -8,7 +8,7 @@ To use this script, you'll need to have Python 3 installed on your computer. You
 
 You'll also need to install the `requests` library. You can do this by running the following command in your terminal:
 
-'pip install requests'
+`pip install requests`
 
 ### Authentication
 
